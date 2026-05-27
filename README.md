@@ -1,4 +1,4 @@
-# Integrated Geospatial Analysis Plugin for QGIS
+# QGIS section drafter
 
 A experimental suite of tools developed with AI (Github Copilot/Claude 4.0) designed for slope analysis applications in QGIS. This plugin combines multiple geospatial analysis capabilities into a single, integrated workflow.
 
