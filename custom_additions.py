@@ -1,7 +1,7 @@
 """
 custom_additions.py
 ====================
-Custom extensions for the Integrated Geospatial Analysis plugin.
+Custom extensions for the QGIS section drafter plugin.
 
 This file is NOT shipped with the plugin and will NOT be overwritten
 by a QGIS auto-update.  main_dialog.py calls `apply_custom_patches()`

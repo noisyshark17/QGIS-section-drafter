@@ -1,5 +1,5 @@
 """
-Integrated Geospatial Analysis Plugin for QGIS
+QGIS section drafter Plugin for QGIS
 A comprehensive suite of tools for geotechnical slope analysis including:
 - Interactive polyline creation with raster draping
 - Elevation profile extraction
@@ -13,21 +13,21 @@ Version: 1.0.0
 """
 
 def classFactory(iface):
-    """Load the IntegratedGeospatialTools class from the main plugin file.
+    """Load the QgisSectionDrafter class from the main plugin file.
     
     Args:
         iface: A reference to the QgisInterface object
         
     Returns:
-        IntegratedGeospatialTools: The plugin class instance
+        QgisSectionDrafter: The plugin class instance
     """
     # Import the plugin class from the main plugin file
-    from .integrated_geospatial_analysis import IntegratedGeospatialTools
-    return IntegratedGeospatialTools(iface)
+    from .integrated_geospatial_analysis import QgisSectionDrafter
+    return QgisSectionDrafter(iface)
 
 def name():
     """Return the plugin name"""
-    return "Integrated Geospatial Analysis"
+    return "QGIS section drafter"
 
 def description():
     """Return the plugin description"""
@@ -65,15 +65,15 @@ def deprecated():
 
 def homepage():
     """Return the plugin homepage URL"""
-    return "https://github.com/yourusername/integrated-geospatial-analysis"
+    return "https://github.com/noisyshark17/QGIS-section-drafter"
 
 def repository():
     """Return the plugin repository URL"""
-    return "https://github.com/yourusername/integrated-geospatial-analysis"
+    return "https://github.com/noisyshark17/QGIS-section-drafter"
 
 def tracker():
     """Return the bug tracker URL"""
-    return "https://github.com/yourusername/integrated-geospatial-analysis/issues"
+    return "https://github.com/noisyshark17/QGIS-section-drafter/issues"
 
 def category():
     """Return the plugin category"""
@@ -101,7 +101,7 @@ def changelog():
 def about():
     """Return detailed about information"""
     return """
-    Integrated Geospatial Analysis Plugin
+    QGIS section drafter Plugin
 
     This plugin provides a comprehensive suite of tools specifically designed for 
     geotechnical engineering and slope analysis applications. It combines multiple 

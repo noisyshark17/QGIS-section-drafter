@@ -1,4 +1,4 @@
-# Integrated Geospatial Analysis Plugin for QGIS
+# QGIS section drafter Plugin for QGIS
 
 A experimental suite of tools designed for slope analysis applications in QGIS. This plugin combines multiple geospatial analysis capabilities into a single, integrated workflow with a professional, modern interface.
 
@@ -86,7 +86,7 @@ A experimental suite of tools designed for slope analysis applications in QGIS. 
    ```
 
 4. **Copy** the plugin folder to the plugins directory
-5. **Rename** the folder to: `integrated_geospatial_analysis` (remove spaces and special characters)
+5. **Rename** the folder to: `QGIS-section-drafter` (remove spaces and special characters)
 6. **Restart QGIS** completely
 
 #### **Method 2: Enable the Plugin**
@@ -94,13 +94,13 @@ A experimental suite of tools designed for slope analysis applications in QGIS. 
 1. Open QGIS
 2. Go to **Plugins → Manage and Install Plugins**
 3. Click the **"Installed"** tab
-4. Find **"Integrated Geospatial Analysis"**
+4. Find **"QGIS section drafter"**
 5. **Check the box** to enable the plugin
 6. Click **"Close"**
 
 #### **Verification**
 - Look for the plugin icon in the toolbar
-- Or access via **Plugins → Integrated Geospatial Analysis**
+- Or access via **Plugins → QGIS section drafter**
 
 ## 📖 Usage Examples
 
@@ -114,7 +114,7 @@ Required Layers:
 ```
 
 #### **Step 2: Create Polylines**
-1. Open the plugin: **Plugins → Integrated Geospatial Analysis**
+1. Open the plugin: **Plugins → QGIS section drafter**
 2. Go to **Tab 1: Create Polylines**
 3. Click **"🎯 Start Drawing Polyline"**
 4. Click points on the map to define your slope profile line
@@ -178,7 +178,7 @@ Required Data:
 ```
 Solutions:
 ✅ Check QGIS version (requires 3.16+)
-✅ Verify plugin folder name: "integrated_geospatial_analysis"
+✅ Verify plugin folder name: "QGIS-section-drafter"
 ✅ Restart QGIS completely
 ✅ Check folder location in correct plugins directory
 ✅ Ensure all files were copied correctly
@@ -299,7 +299,7 @@ If you continue to experience issues:
 To reset the plugin to default settings:
 
 1. **Close QGIS**
-2. **Delete settings**: Remove QGIS registry entries for "IntegratedGeospatialTools"
+2. **Delete settings**: Remove QGIS registry entries for "QgisSectionDrafter"
 3. **Restart QGIS** and reconfigure the plugin
 
 ## 📋 System Requirements

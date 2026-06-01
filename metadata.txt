@@ -1,5 +1,5 @@
 [general]
-name=Integrated Geospatial Analysis
+name=QGIS section drafter
 qgisMinimumVersion=3.16
 description=Comprehensive geotechnical analysis suite with polyline creation, elevation profiles, intersection analysis, and Excel workflows.
 version=1.0.0
@@ -8,15 +8,15 @@ email=engineer@example.com
 
 about=Integrated geospatial analysis tools for geotechnical engineering including interactive polyline creation with raster draping, elevation profile extraction, intersection point analysis, Excel data processing, and advanced plotting capabilities.
 
-tracker=https://github.com/example/integrated-geospatial-analysis/issues
-repository=https://github.com/example/integrated-geospatial-analysis
+tracker=https://github.com/noisyshark17/QGIS-section-drafter/issues
+repository=https://github.com/noisyshark17/QGIS-section-drafter
 
 hasProcessingProvider=no
 changelog=1.0.0 - Initial release with comprehensive geotechnical analysis tools
 
 tags=geotechnical,analysis,profiles,elevation,excel,plotting
 
-homepage=https://github.com/example/integrated-geospatial-analysis
+homepage=https://github.com/noisyshark17/QGIS-section-drafter
 category=Analysis
 icon=icon.png
 experimental=False

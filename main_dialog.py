@@ -1623,7 +1623,7 @@ class CombinedGeospatialToolDialog(QDialog):
     def __init__(self, iface, parent=None):
         super().__init__(parent)
         self.iface = iface  # Store the QGIS interface reference
-        self.setWindowTitle("Integrated Geospatial Tools Suite")
+        self.setWindowTitle("QGIS section drafter")
         self.setModal(False)
         
         # Apply professional theme
@@ -1650,7 +1650,7 @@ class CombinedGeospatialToolDialog(QDialog):
         
         self.map_tool = None
         self.temp_polylines = []
-        self.settings = QSettings("QGIS", "IntegratedGeospatialTools")
+        self.settings = QSettings("QGIS", "QgisSectionDrafter")
         self.last_directory = self.settings.value("lastDirectory", os.path.expanduser("~"))
         self.plot_config = self.load_plot_config()
         self.plot_display_widget = None
@@ -8241,7 +8241,7 @@ class CombinedGeospatialToolDialog(QDialog):
     def show_help(self):
         """Show help dialog with user guidance"""
         help_dialog = QDialog(self)
-        help_dialog.setWindowTitle("Help - Integrated Geospatial Tools")
+        help_dialog.setWindowTitle("Help - QGIS section drafter")
         help_dialog.setMinimumSize(600, 500)
         help_dialog.resize(700, 600)
         
@@ -8251,7 +8251,7 @@ class CombinedGeospatialToolDialog(QDialog):
         help_text = QTextEdit()
         help_text.setReadOnly(True)
         help_text.setHtml("""
-        <h2>Integrated Geospatial Tools - User Guide</h2>
+        <h2>QGIS section drafter - User Guide</h2>
         
         <h3>🔧 Common Display Issues & Solutions:</h3>
         <ul>
@@ -8344,4 +8344,4 @@ try:
     from .custom_additions import apply_custom_patches
     apply_custom_patches(CombinedGeospatialToolDialog)
 except Exception as _e:
-    print(f"[Integrated Geospatial Analysis] custom_additions not loaded: {_e}")
+    print(f"[QGIS section drafter] custom_additions not loaded: {_e}")

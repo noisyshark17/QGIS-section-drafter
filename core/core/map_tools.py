@@ -1,5 +1,5 @@
 """
-Map tools for the Integrated Geospatial Tools plugin
+Map tools for the QGIS section drafter plugin
 """
 
 from PyQt5.QtCore import pyqtSignal, Qt

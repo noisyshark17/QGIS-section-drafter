@@ -1,5 +1,5 @@
 """
-Main plugin class for Integrated Geospatial Analysis
+Main plugin class for QGIS section drafter
 """
 
 from PyQt5.QtCore import QTranslator, QCoreApplication
@@ -11,8 +11,8 @@ import os.path
 from .main_dialog import CombinedGeospatialToolDialog
 
 
-class IntegratedGeospatialTools:
-    """QGIS Plugin Implementation for Integrated Geospatial Analysis"""
+class QgisSectionDrafter:
+    """QGIS Plugin Implementation for QGIS section drafter"""
 
     def __init__(self, iface):
         """Constructor.
@@ -31,7 +31,7 @@ class IntegratedGeospatialTools:
         locale_path = os.path.join(
             self.plugin_dir,
             'i18n',
-            'IntegratedGeospatialTools_{}.qm'.format(locale))
+            'QgisSectionDrafter_{}.qm'.format(locale))
 
         if os.path.exists(locale_path):
             self.translator = QTranslator()
@@ -40,7 +40,7 @@ class IntegratedGeospatialTools:
 
         # Declare instance attributes
         self.actions = []
-        self.menu = self.tr('&Integrated Geospatial Analysis')
+        self.menu = self.tr('&QGIS section drafter')
         
         # Check if plugin was started the first time in current QGIS session
         # Must be set in initGui() to survive plugin reloads
@@ -58,7 +58,7 @@ class IntegratedGeospatialTools:
         Returns:
             str: Translated string
         """
-        return QCoreApplication.translate('IntegratedGeospatialTools', message)
+        return QCoreApplication.translate('QgisSectionDrafter', message)
 
     def add_action(
         self,
@@ -117,7 +117,7 @@ class IntegratedGeospatialTools:
         icon_path = os.path.join(self.plugin_dir, 'icon.png')
         self.add_action(
             icon_path,
-            text=self.tr('Integrated Geospatial Analysis'),
+            text=self.tr('QGIS section drafter'),
             callback=self.run,
             parent=self.iface.mainWindow())
 
@@ -128,7 +128,7 @@ class IntegratedGeospatialTools:
         """Removes the plugin menu item and icon from QGIS GUI."""
         for action in self.actions:
             self.iface.removePluginMenu(
-                self.tr('&Integrated Geospatial Analysis'),
+                self.tr('&QGIS section drafter'),
                 action)
             self.iface.removeToolBarIcon(action)
             

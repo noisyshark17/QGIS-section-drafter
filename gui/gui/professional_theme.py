@@ -1,5 +1,5 @@
 """
-Professional Theme System for Integrated Geospatial Tools
+Professional Theme System for QGIS section drafter
 Provides consistent styling and modern appearance
 """
 

@@ -1,5 +1,5 @@
 """
-Excel utilities for the Integrated Geospatial Tools plugin
+Excel utilities for the QGIS section drafter plugin
 """
 
 import os
