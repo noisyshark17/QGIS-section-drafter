@@ -7,8 +7,8 @@ A comprehensive suite of tools for geotechnical slope analysis including:
 - Excel data processing and merge workflows
 - Advanced matplotlib plotting capabilities
 
-Author: Your Name
-Email: your.email@example.com
+Author: Tom Stallard
+Email: tom@tasmaninsights.com
 Version: 1.0.0
 """
 
@@ -45,11 +45,11 @@ def qgisMinimumVersion():
 
 def author():
     """Return the plugin author"""
-    return "Your Name"
+    return "Tom Stallard"
 
 def email():
     """Return the author email"""
-    return "your.email@example.com"
+    return "tom@tasmaninsights.com"
 
 def icon():
     """Return the plugin icon filename"""

@@ -3,8 +3,8 @@ name=QGIS section drafter
 qgisMinimumVersion=3.16
 description=Comprehensive geotechnical analysis suite with polyline creation, elevation profiles, intersection analysis, and Excel workflows.
 version=1.0.0
-author=Geotechnical Engineer
-email=engineer@example.com
+author=Tom Stallard
+email=tom@tasmaninsights.com
 
 about=Integrated geospatial analysis tools for geotechnical engineering including interactive polyline creation with raster draping, elevation profile extraction, intersection point analysis, Excel data processing, and advanced plotting capabilities.
 
