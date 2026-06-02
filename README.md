@@ -2,6 +2,14 @@
 
 An experimental suite of tools generated in conjunction with AI (Claude) designed for geological cross section generation in QGIS. The plugin combines multiple geospatial analysis capabilities into an integrated work flow. 
 
+## 🎯 Development Story
+
+This plugin has been in active development and production use for 12+ months, 
+supporting real geotechnical workflows. Built with a human-in-the-loop AI approach:
+- Architecture & logic: Human-designed workflows for engineering use cases
+- Implementation: AI assistance for boilerplate, testing, and documentation
+- Testing & refinement**: Iterated based on real production feedback
+
 ![Plugin Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![QGIS Version](https://img.shields.io/badge/QGIS-3.16+-green)
 ![Python](https://img.shields.io/badge/python-3.7+-blue)
