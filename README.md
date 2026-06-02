@@ -8,7 +8,7 @@ This plugin has been in active development and production use for 12+ months,
 supporting real geotechnical workflows. Built with a human-in-the-loop AI approach:
 - Architecture & logic: Human-designed workflows for engineering use cases
 - Implementation: AI assistance for boilerplate, testing, and documentation
-- Testing & refinement**: Iterated based on real production feedback
+- Testing & refinement: Iterated based on real production feedback
 
 ![Plugin Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![QGIS Version](https://img.shields.io/badge/QGIS-3.16+-green)
