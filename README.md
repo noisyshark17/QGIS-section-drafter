@@ -1,6 +1,6 @@
 # QGIS section drafter
 
-A experimental suite of tools developed with AI (Github Copilot/Claude 4.0) designed for slope analysis applications in QGIS. This plugin combines multiple geospatial analysis capabilities into a single, integrated workflow.
+An experimental suite of tools generated in conjunction with AI (Claude) designed for geological cross section generation in QGIS. The plugin combines multiple geospatial analysis capabilities into an integrated work flow. 
 
 ![Plugin Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![QGIS Version](https://img.shields.io/badge/QGIS-3.16+-green)
